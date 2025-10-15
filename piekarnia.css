@@ -1,0 +1,638 @@
+body{
+      margin: 0;
+    }
+    nav 
+	{	
+		font-family: Arial, sans-serif;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 50px;
+		padding-bottom: 5px;
+		background-color: white;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+	a{
+		text-decoration: none;
+	}
+	#text1{
+		font-family: Montserrat;
+		font-size:40px;
+		text-align: left;
+		margin-top: 75px;
+		margin-left: 50px;
+	}
+	#text2{
+		font-family: noto Sans, sans-serif;
+		font-weight: 500;
+		font-size: 20px;
+		text-align: left;
+	}
+	.kontakt-link{
+		color: black;
+	}
+	.kontakt-link:hover{
+		color: orange;
+	}
+	.Onas-h2{
+		padding-top: 0px;
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 50px;
+		color: #784e06;
+	}
+	.textONas{
+		font-family: noto Sans, sans-serif;
+		font-size: 20px;
+		object-fit: cover;
+		text-align: left;
+		margin-top: 75px;
+		margin-left: 50px;
+	}
+	.text{
+		font-family: noto Sans, sans-serif;
+		font-weight: 500;
+		font-size: 40px;
+		text-align: right;
+	}
+	.kontener-text{
+		padding: 100px;
+		padding-left: 20%;
+		padding-right: 20%;
+		background: #fff7ec;
+		border-radius: 15px;
+	}
+	.button-txt{
+		color:white;
+	}
+	.button-prawo{
+		font-family: Arial, sans-serif;
+		background-color: #784e06;
+		border-style: none;
+		position: sticky;
+		color: white;
+		float: right;
+		font-size: 30px;
+		height: 80px;
+		width: 256px;
+		text-align: center;
+		border-radius: 16px;
+		box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+	}
+	.button-prawo a:hover{
+		color: orange;
+	}
+	.button-srodek{
+		font-family: Arial, sans-serif;
+		background-color: #784e06;
+		border-style: none;
+		color: white;
+		float: right;
+		font-size: 30px;
+		height: 80px;
+		width: 256px;
+		text-align: center;
+		border-radius: 16px;
+		box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+	}
+	.button-srodek a:hover{
+		color: orange;
+	}
+	.kontener{
+		display: flex;
+		padding: 20px;
+		align-items: center;
+		padding-top: 0px;
+	}
+	.kontener-tlo{
+		display: flex;
+		padding: 20px;
+		align-items: center;
+		padding-top: 0px;
+		background-color: gray;
+	}
+	.zdjecie{
+		align-items: left;
+		padding: 20px;
+		height: 400px;
+		padding-top: 0px;
+		width: 55%;
+	}
+	.zdjecie-onas{
+		align-items: left;
+		padding: 20px;
+		height: 500px;
+		width: 60%;
+	}
+	.menu-lewo{
+		margin-left: 100px;
+	}
+	.menu-prawo{
+		margin-right: 100px;
+	}
+    .menu-lewo,
+    .menu-prawo {
+		display: flex;
+		gap: 50px;
+		font-size: 20px;
+    }
+    .menu-lewo a,
+    .menu-prawo a {
+		text-decoration: none;
+		color: black;
+		font-weight: 500;
+		position: relative;
+    }
+
+    .menu-lewo a:hover, .menu-prawo a:hover	{
+		color: orange;
+		transform: scale(1.03);
+    }
+
+    .logo {
+		text-align: center;
+		flex: 1;
+    }
+	.section {
+		padding: 100px 60px;
+		text-align: center;
+	}
+
+	.section h2 {
+		font-size: 50px;
+		margin-bottom: 50px;
+		color: #784e06;
+	}
+	.section1{
+		padding: 100px;
+		padding-top: 0px;
+		text-align: center;
+	}
+	.section1 h2 {
+		font-size: 50px;
+		margin-bottom: 50px;
+		color: #784e06;
+	}
+	/*.section h1 {
+		font-size: 100px;
+		margin-bottom: 100px;
+		margin-top: 0px;
+		padding-left: 200px;
+		color: #784e06;
+		text-align: left;
+	}*/
+	.about .content {
+		display: flex;
+		gap: 60px;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.about img {
+		width: 500px;
+		border-radius: 10px;
+	}
+
+	.about .text {
+		max-width: 600px;
+		font-size: 18px;
+		line-height: 1.7;
+	}
+
+	.products {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.product {
+		width: 300px;
+		height: 450px;
+		background: #fff7ec;
+		padding: 25px;
+		border-radius: 15px;
+		box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+	.product:hover {
+		transform: scale(1.03);
+		box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+	}
+
+	.product img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+		border-radius: 12px;
+	}
+
+	.product h3 {
+		margin: 20px 0 10px;
+		color: #784e06;
+		font-size: 26px;
+	}
+
+	.product p {
+		font-size: 18px;
+		line-height: 1.6;
+		color: #444;
+	}
+
+	.opinie {
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		align-items: right;
+		font-style: italic;
+		background: #fff7ec;
+		padding: 25px;
+		border-radius: 15px;
+	}
+
+	.kontakt p {
+		font-size: 18px;
+		line-height: 1.6;
+		margin-bottom: 30px;
+	}
+	.kontakt-text {
+		font-size: 40px;
+		font-family: Montserrat;
+		padding: 40px;
+	}
+	.kontakt-d {
+		font-size: 50px;
+		margin-bottom: 0px;
+		color: #784e06;
+		text-align: center;
+		padding-top: 40px;
+	}
+	.stopka {
+		background-color: #272727;
+		color: white;
+		display: flex;
+	}
+	.stopka-linki {
+		display: flex;
+		color: white;
+		gap: 60px;
+		align-items: center;
+		padding-left: 40px;
+	}
+	.stopka-linki a{
+		color: white;
+		font-size: 25px;
+		text-decoration: none;
+	}
+	.stopka-linki a:hover{
+		color: orange;
+		text-decoration: none;
+		transform: scale(1.03);
+	}
+	.stopka-kontakt{
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		padding: 40px;
+		padding-left: 150px;
+	}
+	.stopka-kontakt a{
+		text-decoration: none;
+		color: white;
+	}
+	.stopka-kontakt a:hover{
+		text-decoration: none;
+		color: orange;
+	}
+	.stopka-logo{
+		align-items: center;
+	}
+	.produkt {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+		margin-bottom: 80px;
+		flex-wrap: wrap;
+		background: #fff7ec;
+		padding: 40px;
+		border-radius: 20px;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	}
+	.produkt img {
+		width: 400px;
+		height: 300px;
+		object-fit: cover;
+		border-radius: 15px;
+		box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+	}
+
+	.produkt-opis {
+		max-width: 500px;
+		text-align: left;
+	}
+
+	.produkt-opis h3 {
+		font-size: 30px;
+		color: #784e06;
+		margin-bottom: 15px;
+	}
+
+	.produkt-opis p {
+		font-size: 18px;
+		line-height: 1.6;
+		color: #333;
+	}
+
+	.cena {
+		margin-top: 15px;
+		font-weight: 600;
+		font-size: 20px;
+		color: #784e06;
+	}
+
+	.cena span {
+		color: #c6882a;
+	}
+	.godziny {
+		background-color: #fff7ec;
+	}
+	.godziny-box {
+		max-width: 700px;
+		margin: 0 auto;
+		background: white;
+		padding: 40px 50px;
+		border-radius: 15px;
+		box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+		text-align: center;
+	}
+
+	.tabela-godzin {
+		margin: 30px auto;
+		border-collapse: collapse;
+		font-size: 18px;
+	}
+
+	.tabela-godzin td {
+		padding: 10px 30px;
+		border-bottom: 1px solid #eee;
+		color: #333;
+	}
+
+	.tabela-godzin td:first-child {
+		text-align: right;
+		font-weight: 600;
+		color: #784e06;
+	}
+
+	.tabela-godzin td:last-child {
+		text-align: left;
+	}
+
+	.godziny-info {
+		margin-top: 20px;
+		font-size: 17px;
+		color: #555;
+		line-height: 1.6;
+	}
+	.pudelko {
+		width: 40%;
+		height: 600px;
+	}
+	.breadcrumbs{
+		font-family: Arial;
+		padding: 10px 16px;
+		padding-left: 100px;
+		list-style: none;
+	}
+	.breadcrumbs li+li:before{
+		padding: 8px;
+		color: black;
+		content: ">>";
+	}
+	.bc{
+		display: inline;
+		font-size: 18px;
+	}
+	.bc a{
+		color: #784e06;
+	}
+	.bc a:hover{
+		color: orange;
+	}
+	.topnav{
+		display: none;
+		overflow: hidden;
+		background-color: white;
+		box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+		position: relative;
+	}
+	.topnav #myLinks{
+		display: none;
+	}
+	.topnav a{
+		color: black;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		display: block;
+	}
+	.topnav a.icon {
+		background: white;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 15px;
+	}
+	.topnav a:hover{
+		background-color: white;
+		color: orange;
+	}
+	.active{
+		color: white;
+	}
+	/*telefony*/
+	@media(max-width: 768px){
+	.tabela-godzin td {
+		padding: 10px ;
+		border-bottom: 1px solid #eee;
+		color: #333;
+	}
+	.topnav{
+		display: flex;
+	}
+	nav{
+		display:none;
+	}
+	.logo img{
+		height: 100px;
+		width: auto;
+		display: none;
+	}
+	.kontener{
+		flex-direction: column;
+		text-align: center;
+		padding: 10px;
+	}
+	.zdjecie, .zdjecie-onas{
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+	#text1{
+		font-size: 24px;
+		margin: 20px 0;
+		text-align: center;
+	}
+	#text2{
+		font-size: 16px;
+		text-align: justify;
+		margin: 10px;
+	}
+	.textONas{
+		font-size: 16px;
+		text-align: justify;
+		font-family: noto Sans, sans-serif;
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+	.pudelko{
+		width: 80%;
+		height: auto;
+	}
+	.kontener-text{
+		padding: 30px 10px;
+	}
+	.button-prawo, .button-srodek{
+		width: 200px;
+		height: 60px;
+		font-size: 22px;
+		float: none;
+		margin: 20px auto;
+		display: block;
+	}
+	.product{
+		width: 90%;
+		height: auto;
+	}
+	.products{
+		flex-direction: column;
+		gap: 30px;
+	}
+	.produkt {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px;
+	}
+	.produkt-opis{
+		max-width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.produkt-opis h3{
+		margin-top: 20px;
+		font-size: 28px;
+	}
+	.produkt-opis p{
+		font-size: 18px;
+		line-height: 1.5;
+		margin: 10px 0;
+	}
+	.produkt img{
+		width: 90%;
+		height: auto;
+		border-radius: 15px;
+	}
+	.stopka{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.stopka-linki{
+		flex-direction: column;
+		gap: 15px;
+		padding: 10px;
+	}
+	.stopka-kontakt{
+		padding: 10px;
+		align-items: center;
+	}
+	.breadcrumbs{
+		padding-left: 20px;
+	}
+	.Onas-h2, .section h2, .section1 h2{
+		font-size: 32px;
+	}
+	.kontakt-text{
+		font-size: 22px;
+	}
+	}
+	/*Monitory 1920x1080*/
+	@media(min-width: 1600px){
+	nav{
+		padding: 40px 200px;
+	}
+	.menu-lewo, .menu-prawo{
+		gap: 80px;
+		font-size: 24px;
+	}
+	.logo img{
+		height: 200px;
+		width: auto;
+	}
+	#text1{
+		font-size: 52px;
+		margin-left: 100px;
+	}
+	#text2{
+		font-size: 24px;
+	}
+	.kontener-text{
+		padding: 150px 25%;
+	}
+	.product{
+		width: 380px;
+		height: 500px;
+	}
+	.product h3{
+		font-size: 30px;
+	}
+	.produkt-opis h3{
+		font-size: 36px;
+	}
+	.produkt-opis p{
+		font-size: 22px;
+	}
+	.button-prawo, .button-srodek{
+		font-size: 32px;
+		height: 90px;
+		width: 280px;
+	}
+	.stopka-linki a{
+		font-size: 28px;
+	}
+	.stopka-kontakt{
+		font-size: 22px;
+	}
+	.section h2, .section1 h2, .Onas-h2{
+		font-size: 60px;
+	}
+	.kontakt-text{
+		font-size: 46px;
+	}
+	.zdjecie-onas{
+		width: 50%;
+	}
+	.textONas{
+		font-size: 24px;
+	}
+	.zdjecie{
+		height: 600px;
+	}
+	}
+
+

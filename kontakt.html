@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Piekarnia U Sławka</title>
+  <link rel="stylesheet" href="piekarnia.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="topnav">
+		<a href="piekarnia.html" class="active"><img class="logo-tel" width=75px height=50px src="logo.png"></a>
+		<div id="myLinks">
+			<a href="oferta.html">Oferta</a>
+			<a href="opinie.html">Opinie</a>
+			<a href="Onas.html">O Nas</a>
+			<a href="kontakt.html">Kontakt</a>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="otworz()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+    <nav>
+		<div class="menu-lewo">
+			<a href="Onas.html">O nas</a>
+			<a href="Kontakt.html">Kontakt</a>
+		</div>
+
+		<div class="logo">
+		<a href="piekarnia.html"><img height=150 width=250 src="logo.png"></a>
+		</div>
+		
+		<div class="menu-prawo">
+			<a href="oferta.html">Oferta</a>
+			<a href="opinie.html">Opinie</a>
+		</div>
+	</nav>
+	<div>
+		<ol class="breadcrumbs">
+			<li class="bc"><a href="piekarnia.html">Home</a></li>
+			<li class="bc"><a href="kontakt.html">Kontakt</a></li>
+		</ol>
+	</div>
+    <section class="section1 kontakt">
+		<h2>Kontakt</h2>
+		<p>Piekarnia U Sławka<br>ul. Beskidzka 45, 43-376 Godziszka</p>
+		<a class="kontakt-link" href="">tel: 725234464<br></a>
+		<a class="kontakt-link" href="mailto: kontakt_uslawka@gmail.com">mail: kontakt_uslawka@gmail.com</a>
+	</section>
+    <section class="section godziny">
+        <h2>Godziny otwarcia</h2>
+        <div class="godziny-box">
+        <table class="tabela-godzin">
+            <tr><td>Poniedziałek – Piątek:</td><td>6:00 – 18:00</td></tr>
+            <tr><td>Sobota:</td><td>6:00 – 14:00</td></tr>
+            <tr><td>Niedziela:</td><td>Nieczynne</td></tr>
+        </table>
+        <p class="godziny-info">Zapraszamy serdecznie po świeże pieczywo każdego dnia!<br>
+        Chleb wypiekamy od świtu, żeby o poranku mógł trafić prosto na Twój stół.</p>
+        </div>
+    </section>
+	<div class="stopka">
+				<img height=200 width=300 src="logo-stopka.png">		
+				<div class="stopka-linki">
+					<a href="oferta.html">Oferta</a>
+					<a href="opinie.html">Opinie</a>
+					<a href="Onas.html">O nas</a>
+					<a href="kontakt.html">Kontakt</a>
+				</div>
+			<div class="stopka-kontakt">
+				<p>Piekarnia U Sławka<br>ul. Beskidzka 45, 43-376 Godziszka</p>
+				<a href="tel: +48725234464">tel: 725234464</a>
+				<a href="mailto: kontakt_uslawka@gmail.com">mail: kontakt_uslawka@gmail.com</a>
+			</div>	
+	</div>
+	<script>
+			function otworz() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+	</script>
+</body>
+</html>

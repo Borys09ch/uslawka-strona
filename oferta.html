@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oferta | Piekarnia U Sławka</title>
+  <link rel="stylesheet" href="piekarnia.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="topnav">
+			<a href="piekarnia.html" class="active"><img class="logo-tel" width=75px height=50px src="logo.png"></a>
+			<div id="myLinks">
+				<a href="oferta.html">Oferta</a>
+				<a href="opinie.html">Opinie</a>
+				<a href="Onas.html">O Nas</a>
+				<a href="kontakt.html">Kontakt</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="otworz()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+    <nav>
+		<div class="menu-lewo">
+			<a href="Onas.html">O nas</a>
+			<a href="Kontakt.html">Kontakt</a>
+		</div>
+
+		<div class="logo">
+		<a href="piekarnia.html"><img height=150 width=250 src="logo.png"></a>
+		</div>
+		
+		<div class="menu-prawo">
+			<a href="oferta.html">Oferta</a>
+			<a href="opinie.html">Opinie</a>
+		</div>
+	</nav>
+  <div>
+		<ol class="breadcrumbs">
+			<li class="bc"><a href="piekarnia.html">Home</a></li>
+			<li class="bc"><a href="oferta.html">Oferta</a></li>
+		</ol>
+	</div>
+  <section class="section1 oferta">
+    <h2>Nasza oferta</h2>
+    <div class="produkt">
+      <img src="chleb.jpg" alt="Chleb tradycyjny">
+      <div class="produkt-opis">
+        <h3>Chleb tradycyjny</h3>
+        <p>Wypiekany na naturalnym zakwasie z mąki pszenno-żytniej. Chrupiąca skórka, miękki środek i aromat, który przenosi w czasy dzieciństwa.</p>
+        <p class="cena">Cena: <span>4,00 zł / bochenek</span></p>
+      </div>
+    </div>
+    <div class="produkt">
+      <img src="bulki.jpg" alt="Bułki pszenne">
+      <div class="produkt-opis">
+        <h3>Bułki pszenne</h3>
+        <p>Świeże każdego ranka! Idealne na śniadanie – lekkie, miękkie i zawsze pachnące świeżym piecem.</p>
+        <p class="cena">Cena: <span>1,20 zł / sztuka</span></p>
+      </div>
+    </div>
+
+    <div class="produkt">
+      <img src="ciasto.jpg" alt="Ciasto drożdżowe">
+      <div class="produkt-opis">
+        <h3>Ciasto drożdżowe z kruszonką</h3>
+        <p>Klasyk, którego nie może zabraknąć przy kawie. Delikatne, puszyste ciasto z maślaną kruszonką.</p>
+        <p class="cena">Cena: <span>22,00 zł / blacha</span></p>
+      </div>
+    </div>
+	
+	<div class="produkt">
+      <img src="paczki.jpg" alt="Pączki">
+      <div class="produkt-opis">
+        <h3>Pączki</h3>
+        <p>Wypiek z puszystego ciasta drożdżowego, smażony na złoty kolor, wypełniony aromatyczną marmoladą różaną.</p>
+        <p class="cena">Cena: <span>3,00 zł / sztuka</span></p>
+      </div>
+    </div>
+	
+	<div class="produkt">
+      <img src="croissant.jpg" alt="Croissant">
+      <div class="produkt-opis">
+        <h3>Croissant</h3>
+        <p>Z zewnątrz chrupiący i kruchy, a w środku miękki i delikatny, dobry na śniadanie, obiad i kolację.</p>
+        <p class="cena">Cena: <span>6,00 zł / sztuka</span></p>
+      </div>
+    </div>
+	
+	<div class="produkt">
+      <img src="Pretzel.jpg" alt="Precle">
+      <div class="produkt-opis">
+        <h3>Precle</h3>
+        <p>Chrupiące z wierzchu, miękkie w środku – nasze precle to klasyczna przekąska w najlepszym wydaniu..</p>
+        <p class="cena">Cena: <span>7,00 zł / sztuka</span></p>
+      </div>
+    </div>
+  </section>
+	<div class="stopka">
+				<img height=200 width=300 src="logo-stopka.png">		
+				<div class="stopka-linki">
+					<a href="oferta.html">Oferta</a>
+					<a href="opinie.html">Opinie</a>
+					<a href="Onas.html">O nas</a>
+					<a href="kontakt.html">Kontakt</a>
+				</div>
+			<div class="stopka-kontakt">
+				<p>Piekarnia U Sławka<br>ul. Beskidzka 45, 43-376 Godziszka</p>
+				<a href="tel: +48725234464">tel: 725234464</a>
+				<a href="mailto: kontakt_uslawka@gmail.com">mail: kontakt_uslawka@gmail.com</a>
+			</div>	
+	</div>
+  <script>
+			function otworz() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
+</body>
+</html>
